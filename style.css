@@ -48,3 +48,22 @@ main {
     border-bottom: 8px solid hsl(45deg, 100%, 40%);
     padding: 0.75em 1.7em;
 }
+
+/* tablet styles: max width of current ipad pro */
+@media (max-width: 1370px) {
+    .max-width-wrapper {
+        margin: 0;
+        width: 100%;
+        max-width: 100%;
+        padding: 0;
+    }
+
+    main .max-width-wrapper {
+        padding: 48px 0 32px 0;
+    }
+
+    .card {
+        width: 100%;
+        margin: 32px 0 0;
+    }
+}
